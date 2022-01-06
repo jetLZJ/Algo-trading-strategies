@@ -1,4 +1,4 @@
 # QantConnect Algo-trading Strategies
 
-Objective
+## Objective
 To explore Qanconnect syntax and implement different strategies on QantConnect 
