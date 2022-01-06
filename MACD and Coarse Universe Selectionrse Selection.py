@@ -69,7 +69,7 @@ class MACDTrendAlgorithm(QCAlgorithm):
 
         for security in self._changes.AddedSecurities:
             stock = security.Symbol
-            stockUptrend = self.stateData[stock].is_uptrend
+            #stockUptrend = self.stateData[stock].is_uptrend
             signalDeltaPercent = ((self.stateData[stock].fast.Current.Value - self.stateData[stock].slow.Current.Value) - self.stateData[stock].signal.Current.Value)/self.stateData[stock].fast.Current.Value
             # define a small tolerance on our checks to avoid bouncing
             tolerance = 0.0025
